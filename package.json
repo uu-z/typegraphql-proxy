@@ -1,0 +1,22 @@
+{
+	"scripts": {
+		"dev": "nodemon --exec ts-node ./index.ts"
+	},
+	"dependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/cache-manager": "^1.2.7",
+		"@types/graphql": "^14.0.7",
+		"@types/reflect-metadata": "^0.1.0",
+		"apollo-server": "^2.4.8",
+		"axios": "^0.18.0",
+		"cache-manager": "^2.9.0",
+		"graphql": "^14.2.0",
+		"reflect-metadata": "^0.1.13",
+		"type-graphql": "^0.17.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10",
+		"ts-node": "^8.0.3",
+		"typescript": "^3.3.4000"
+	}
+}
